@@ -1,0 +1,9 @@
+urldata reading...
+positives size:  74192
+negatives size:  225797
+BF buildtime:  0.45075321197509766
+size of memory:  711134
+number of hash:  6
+100%|¨€| 225797/225797 [00:00<00:00, 380422.89it/s]
+fpr: 1.0128566810010762
+query latency: 2.709323153203115
