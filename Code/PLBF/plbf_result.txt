@@ -1,0 +1,55 @@
+0.4±ÈÀý·Ö¸î
+--------------------------Test1--------------------------
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Create initial filter...
+size of memory in initial_bf: 327259
+number of K in initial_bf: 7
+PCA matrix created
+Epoch 1/3
+33/33 - 14s - loss: 0.4480 - accuracy: 0.8353
+Epoch 2/3
+33/33 - 14s - loss: 0.3695 - accuracy: 0.8602
+Epoch 3/3
+33/33 - 13s - loss: 0.3002 - accuracy: 0.8866
+Done fitting
+Creating bloom filter
+threshold: 0.911529
+Number of positive key 44516
+Number of false negatives at bloom time 26184
+Created bloom filter
+hash function K:  7
+bBF memory size:  288750
+LBF buildtime£º 51.07697248458862
+negatives testing
+100%|¨€¨€¨€| 225797/225797 [1:57:14<00:00, 32.10it/s]
+fpr: 1.1027604441157324
+query latency: 31156.03418202014
+
+--------------------------Test2--------------------------
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Create initial filter...
+size of memory in initial_bf: 327259
+number of K in initial_bf: 7
+Epoch 1/3
+33/33 - 15s - loss: 0.5045 - accuracy: 0.8199
+Epoch 2/3
+33/33 - 15s - loss: 0.4106 - accuracy: 0.8355
+Epoch 3/3
+33/33 - 16s - loss: 0.3565 - accuracy: 0.8621
+Done fitting
+Creating bloom filter
+threshold: 0.806666
+Number of positive key 44516
+Number of false negatives at bloom time 37159
+Created bloom filter
+hash function K:  7
+bBF memory size:  409780
+LBF buildtime£º 56.030019998550415
+negatives testing
+100%|¨€¨€¨€| 225797/225797 [2:01:57<00:00, 30.86it/s]
+fpr: 1.3578568360075642
+query latency: 32407.204729994683
