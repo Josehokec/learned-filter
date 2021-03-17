@@ -1,0 +1,87 @@
+negative·Ö¸î±ÈÀýÊÇ9:1
+================================================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8584348092763401
+Done fitting
+Creating bloom filter
+model threshold: 0.558831
+Number of false negatives at bloom time 31778
+Created bloom filter
+hash function K:  7
+bBF memory size:  350439
+LBF buildtime£º 16.649116277694702
+negatives fpr and query latency test...
+fpr: 4.309623245658711
+query latency: 39.952172669900754
+==================================================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8590848331105474
+Done fitting
+Creating bloom filter
+model threshold: 0.283637
+Number of false negatives at bloom time 14285
+Created bloom filter
+hash function K:  7
+bBF memory size:  157531
+LBF buildtime£º 16.952457427978516
+negatives fpr and query latency test...
+fpr: 19.836401723672147
+query latency: 38.87752835418827
+====================================================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.837000690025301
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.298421
+Number of false negatives at bloom time 13481
+Created bloom filter
+hash function K:  7
+bBF memory size:  148665
+LBF buildtime£º 16.12660503387451
+negatives fpr and query latency test...
+fpr: 26.509652475453617
+query latency: 36.20618479270561
+====================================================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8413608498978296
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.501623
+Number of false negatives at bloom time 22941
+Created bloom filter
+hash function K:  7
+bBF memory size:  252987
+LBF buildtime£º 15.956701278686523
+negatives fpr and query latency test...
+fpr: 11.280486454647315
+query latency: 37.06385898344697

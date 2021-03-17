@@ -1,0 +1,47 @@
+negative·Ö¸î±ÈÀýÊÇ7:3
+===================================================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.85573471027271
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.039635
+Number of false negatives at bloom time 12361
+Created bloom filter
+hash function K:  7
+bBF memory size:  136314
+LBF buildtime£º 20.373624563217163
+negatives fpr and query latency test...
+fpr: 22.63670465063752
+query latency: 43.07050209993353
+===================================================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8686185160122538
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.082353
+Number of false negatives at bloom time 8620
+Created bloom filter
+hash function K:  7
+bBF memory size:  95059
+LBF buildtime£º 20.050971031188965
+negatives fpr and query latency test...
+fpr: 29.048658751002005
+query latency: 41.87455517707495
+===================================================
+
