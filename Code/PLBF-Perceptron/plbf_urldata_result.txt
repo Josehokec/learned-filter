@@ -1,0 +1,261 @@
+******************************
+negative分割比例是9:1
+******************************
+=====================test 1=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8718486344499299
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.604120
+Number of false negatives at bloom time 39261
+Created bloom filter
+hash function K:  7
+bBF memory size:  432960
+LBF buildtime： 16.692290782928467
+negatives fpr and query latency test...
+fpr: 1.0753021519329309
+query latency: 35.74011884902445
+
+=====================test 2=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.7811519755724377
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.930241
+Number of false negatives at bloom time 42315
+Created bloom filter
+hash function K:  7
+bBF memory size:  466639
+LBF buildtime： 15.738943815231323
+negatives fpr and query latency test...
+fpr: 1.133318866061108
+query latency: 35.068732501950514
+
+=====================test 3=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8559747190730327
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.335827
+Number of false negatives at bloom time 40885
+Created bloom filter
+hash function K:  7
+bBF memory size:  450869
+LBF buildtime： 16.79397177696228
+negatives fpr and query latency test...
+fpr: 0.7546601593466697
+query latency: 37.866245304020275
+
+=====================test 4=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8642116877618846
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.809740
+Number of false negatives at bloom time 39638
+Created bloom filter
+hash function K:  7
+bBF memory size:  437118
+LBF buildtime： 16.843538522720337
+negatives fpr and query latency test...
+fpr: 1.2604241863266563
+query latency: 39.803659573760356
+
+=====================test 5=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8150198840624157
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.923731
+Number of false negatives at bloom time 40872
+Created bloom filter
+hash function K:  7
+bBF memory size:  450726
+LBF buildtime： 16.851690530776978
+negatives fpr and query latency test...
+fpr: 1.2236655048561318
+query latency: 41.033656036339515
+----------------------------------------------------------------------------------
+
+******************************
+negative分割比例是7:3
+******************************
+=====================test 6=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8646917053625299
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.805443
+Number of false negatives at bloom time 38568
+Created bloom filter
+hash function K:  7
+bBF memory size:  425318
+LBF buildtime： 19.240108251571655
+negatives fpr and query latency test...
+fpr: 1.0066564214759275
+query latency: 38.61658219329806
+
+=====================test 7=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8705019184036747
+iteration : 9
+Done fitting
+Creating bloom filter
+model threshold: 0.850609
+Number of false negatives at bloom time 40577
+Created bloom filter
+hash function K:  7
+bBF memory size:  447473
+LBF buildtime： 19.336268186569214
+negatives fpr and query latency test...
+fpr: 1.3915153877155144
+query latency: 38.217409493651324
+
+=====================test 8=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.7832787202197414
+iteration : 8
+Done fitting
+Creating bloom filter
+model threshold: 0.906941
+Number of false negatives at bloom time 39945
+Created bloom filter
+hash function K:  7
+bBF memory size:  440503
+LBF buildtime： 19.66582751274109
+negatives fpr and query latency test...
+fpr: 0.9566114695943702
+query latency: 38.9600182661674
+
+=====================test 9=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8680384947448073
+iteration : 7
+Done fitting
+Creating bloom filter
+model threshold: 0.703907
+Number of false negatives at bloom time 42016
+Created bloom filter
+hash function K:  7
+bBF memory size:  463342
+LBF buildtime： 18.753430128097534
+negatives fpr and query latency test...
+fpr: 0.9092237717950195
+query latency: 37.81041259053359
+
+=====================test 10=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.8708519312374787
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.754300
+Number of false negatives at bloom time 42158
+Created bloom filter
+hash function K:  7
+bBF memory size:  464908
+LBF buildtime： 19.96804165840149
+negatives fpr and query latency test...
+fpr: 0.9946987781059978
+query latency: 40.356062065486086
+
+=====================test 11=====================
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+model acc:  0.7061558923827207
+iteration : 10
+Done fitting
+Creating bloom filter
+model threshold: 0.954858
+Number of false negatives at bloom time 41756
+Created bloom filter
+hash function K:  7
+bBF memory size:  460474
+LBF buildtime： 17.636204719543457
+negatives fpr and query latency test...
+fpr: 0.9278245503704655
+query latency: 35.761469104649784
+
+

@@ -1,0 +1,49 @@
+******************************
+negative·Ö¸î±ÈÀýÊÇ9:1
+******************************
+=====================test 1=====================
+Shalla_Cost reading...
+positives size:  1491178
+negatives size:  1435527
+Vectorizing data...
+Corpus length 55281876
+Total chars: 38
+max seen length of URL 124
+Using maxlen 50
+model acc:  0.5163496150107373
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.935491
+Number of false negatives at bloom time 1464799
+Created bloom filter
+hash function K:  7
+bBF memory size:  16153442
+PLBF buildtime£º 155.2005751132965
+negatives fpr and query latency test...
+fpr: 1.0351599099146167
+query latency: 21.092319750075035
+
+=====================test 2=====================
+Shalla_Cost reading...
+positives size:  1491178
+negatives size:  1435527
+Vectorizing data...
+Corpus length 55281876
+Total chars: 38
+max seen length of URL 124
+Using maxlen 50
+model acc:  0.5468265506772975
+iteration : 6
+Done fitting
+Creating bloom filter
+model threshold: 0.734769
+Number of false negatives at bloom time 1451829
+Created bloom filter
+hash function K:  7
+bBF memory size:  16010412
+PLBF buildtime£º 158.96401286125183
+negatives fpr and query latency test...
+fpr: 1.019486223526273
+query latency: 21.42551137811952
+

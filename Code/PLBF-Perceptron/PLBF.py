@@ -8,24 +8,23 @@ from utils import *
 
 sys.path.append("../lib")
 
-"""
-add a initial filter
-"""
-
 
 class PLBF(object):
+    """
+    Practical learned bloom filter use perceptron as classifier
+    """
     def __init__(self, model, data, using_Fpr=True, fp_rate=0.01, total_size=100000, model_size=int(70 * 1024 * 8),
                  is_train=True):
         self.model = model
         self.threshold = 0.9
         self.using_Fpr = using_Fpr
         self.is_train = is_train
-
         (s1, s2) = split_negatives(data, 0.7)
         if self.is_train:
             self.fit(data.positives, data.negatives)
         else:
-            print("no model to load!!!")
+            self.model.load_model()
+            print("model load success")
         if using_Fpr:
             self.fp_rate = float(fp_rate)
             self.create_best_bloom_filter(data, s2)
@@ -61,12 +60,19 @@ class PLBF(object):
         self.model.fit(shuffled[0], shuffled[1])
         print("Done fitting")
 
-    # add data
     def get_threshold(self, test_negatives):
         fp_index = math.ceil((len(test_negatives) * (1 - self.fp_rate / 2)))
         predictions = self.model.predicts(test_negatives)
         predictions.sort()
+
         """
+        import pandas as pd
+        excel_data = pd.DataFrame(predictions)
+        writer = pd.ExcelWriter('preds.xlsx')  # 写入Excel文件
+        excel_data.to_excel(writer, float_format='%.5f')
+        writer.save()
+        writer.close()
+        # ---------------------------------------------
         predictions = self.model.predicts(test_negatives[0:10])
         print(predictions)
         result1 = list()
