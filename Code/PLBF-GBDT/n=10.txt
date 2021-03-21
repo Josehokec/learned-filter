@@ -1,0 +1,39 @@
+D:\anaconda\envs\tensorflow\python.exe D:/Design/code/learnedfilter/PLBF-GBDT/run_PLBF.py
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+36.80036449432373
+model acc:  0.9947464740373814
+Done fitting
+Creating bloom filter
+test negatives: [0.99838436 0.99703802 0.99247044 0.99581279 0.99182927 0.99757699
+ 0.99686443 0.99639095 0.99639095 0.99581279]
+https://www.manta.com/c/mmf9lry/h-bud-abell  is predicted: 0.9983843578326983
+https://www.manta.com/c/mmf9vz7/c-j-edwards-funeral-home-inc  is predicted: 0.9970380237017856
+https://www.manta.com/c/mmf9yls/kbay  is predicted: 0.9924704373609023
+https://www.manta.com/c/mmf9zwn/lake-merritt-apartments  is predicted: 0.9958127904185833
+https://www.manta.com/c/mmfb8d4/route-specific  is predicted: 0.9918292745439444
+https://www.manta.com/c/mmfb993/perkins-sandblasting  is predicted: 0.997576986185322
+https://www.manta.com/c/mmfbn9m/chinatown-76  is predicted: 0.9968644311267791
+https://www.manta.com/c/mmfc17t/walt-disney-parks-and-resorts-u-s-inc  is predicted: 0.996390954843808
+https://www.manta.com/c/mmfcd6n/westport-middle-school  is predicted: 0.996390954843808
+https://www.manta.com/c/mmfcfwl/athenaeum-kansas-city  is predicted: 0.9958127904185833
+http://atualizacaodedados.online  is predicted: 0.025394426410026982
+http://webmasteradmin.ukit.me/  is predicted: 0.0012232027180504312
+http://stcdxmt.bigperl.in/klxtv/apps/uk/  is predicted: 0.0032337505090007657
+https://tubuh-syarikat.com/plugins/fields/files/  is predicted: 0.020405486741329804
+http://ongelezen-voda.000webhostapp.com/inloggen.html  is predicted: 0.0014014247057689833
+http://www.valenzaceramic.com/home/webapps/e52c1/websrc  is predicted: 0.0007247555006940631
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/68e8bee20c2d73a1dcbf1dcd35ef13f3/index_2.html  is predicted: 0.0005853579393868547
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/68e8bee20c2d73a1dcbf1dcd35ef13f3/  is predicted: 0.0005853579393868547
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/7361b7745a818c322229b9eea7f5ceab/  is predicted: 0.0005853579393868547
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/db8214fc5be1e587af74890698601fe3/  is predicted: 0.0005853579393868547
+negative keys test:  [0.9983843578326983, 0.9970380237017856, 0.9924704373609023, 0.9958127904185833, 0.9918292745439444, 0.997576986185322, 0.9968644311267791, 0.996390954843808, 0.996390954843808, 0.9958127904185833]
+positive keys test:  [0.025394426410026982, 0.0012232027180504312, 0.0032337505090007657, 0.020405486741329804, 0.0014014247057689833, 0.0007247555006940631, 0.0005853579393868547, 0.0005853579393868547, 0.0005853579393868547, 0.0005853579393868547]
+
+Process finished with exit code 0

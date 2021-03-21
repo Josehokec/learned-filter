@@ -1,0 +1,39 @@
+Danacondaenvstensorflowpython.exe DDesigncodelearnedfilterPLBF-GBDTrun_PLBF.py
+urldata reading...
+positives size  74192
+negatives size  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars 67
+max seen length of URL 2314
+Using maxlen 50
+72.97127223014832
+model acc  0.996683211717763
+Done fitting
+Creating bloom filter
+test negatives [0.9995007  0.99887976 0.99681934 0.9990184  0.99658042 0.9987254
+ 0.9988044  0.99820047 0.99820047 0.99896357]
+httpswww.manta.comcmmf9lryh-bud-abell  is predicted 0.9995006961219864
+httpswww.manta.comcmmf9vz7c-j-edwards-funeral-home-inc  is predicted 0.9988797580384619
+httpswww.manta.comcmmf9ylskbay  is predicted 0.9968193432927709
+httpswww.manta.comcmmf9zwnlake-merritt-apartments  is predicted 0.999018403893205
+httpswww.manta.comcmmfb8d4route-specific  is predicted 0.9965804186293794
+httpswww.manta.comcmmfb993perkins-sandblasting  is predicted 0.9987254020875891
+httpswww.manta.comcmmfbn9mchinatown-76  is predicted 0.9988043959929805
+httpswww.manta.comcmmfc17twalt-disney-parks-and-resorts-u-s-inc  is predicted 0.9982004745496786
+httpswww.manta.comcmmfcd6nwestport-middle-school  is predicted 0.9982004745496786
+httpswww.manta.comcmmfcfwlathenaeum-kansas-city  is predicted 0.9989635709376168
+httpatualizacaodedados.online  is predicted 0.004791448366626927
+httpwebmasteradmin.ukit.me  is predicted 0.00037780862047864794
+httpstcdxmt.bigperl.inklxtvappsuk  is predicted 0.00034253569475306556
+httpstubuh-syarikat.compluginsfieldsfiles  is predicted 0.004057667342891813
+httpongelezen-voda.000webhostapp.cominloggen.html  is predicted 0.0003115197042808937
+httpwww.valenzaceramic.comhomewebappse52c1websrc  is predicted 0.00039655285790296535
+httpchronopost-service-enligne.net56123sremboursementremboursementassurance68e8bee20c2d73a1dcbf1dcd35ef13f3index_2.html  is predicted 4.896533666687297e-05
+httpchronopost-service-enligne.net56123sremboursementremboursementassurance68e8bee20c2d73a1dcbf1dcd35ef13f3  is predicted 4.896533666687297e-05
+httpchronopost-service-enligne.net56123sremboursementremboursementassurance7361b7745a818c322229b9eea7f5ceab  is predicted 4.896533666687297e-05
+httpchronopost-service-enligne.net56123sremboursementremboursementassurancedb8214fc5be1e587af74890698601fe3  is predicted 4.896533666687297e-05
+negative keys test  [0.9995006961219864, 0.9988797580384619, 0.9968193432927709, 0.999018403893205, 0.9965804186293794, 0.9987254020875891, 0.9988043959929805, 0.9982004745496786, 0.9982004745496786, 0.9989635709376168]
+positive keys test  [0.004791448366626927, 0.00037780862047864794, 0.00034253569475306556, 0.004057667342891813, 0.0003115197042808937, 0.00039655285790296535, 4.896533666687297e-05, 4.896533666687297e-05, 4.896533666687297e-05, 4.896533666687297e-05]
+
+Process finished with exit code 0

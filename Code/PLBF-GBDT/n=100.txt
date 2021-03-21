@@ -1,0 +1,81 @@
+D:\anaconda\envs\tensorflow\python.exe D:/Design/code/learnedfilter/PLBF-GBDT/run_PLBF.py
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+410.89040446281433
+model acc:  0.996779881929004
+Done fitting
+Creating bloom filter
+test negatives: [0.9994946  0.99832264 0.99764989 0.99896152 0.99621645 0.99881061
+ 0.99923112 0.99858732 0.99901607 0.99877528]
+https://www.manta.com/c/mmf9lry/h-bud-abell  is predicted: 0.9994946041818981
+https://www.manta.com/c/mmf9vz7/c-j-edwards-funeral-home-inc  is predicted: 0.9983226440736334
+https://www.manta.com/c/mmf9yls/kbay  is predicted: 0.9976498928131342
+https://www.manta.com/c/mmf9zwn/lake-merritt-apartments  is predicted: 0.9989615220648423
+https://www.manta.com/c/mmfb8d4/route-specific  is predicted: 0.9962164489700351
+https://www.manta.com/c/mmfb993/perkins-sandblasting  is predicted: 0.9988106059841725
+https://www.manta.com/c/mmfbn9m/chinatown-76  is predicted: 0.9992311225369916
+https://www.manta.com/c/mmfc17t/walt-disney-parks-and-resorts-u-s-inc  is predicted: 0.9985873202413287
+https://www.manta.com/c/mmfcd6n/westport-middle-school  is predicted: 0.9990160720863482
+https://www.manta.com/c/mmfcfwl/athenaeum-kansas-city  is predicted: 0.9987752775549206
+http://atualizacaodedados.online  is predicted: 0.0035968969055161226
+http://webmasteradmin.ukit.me/  is predicted: 0.00033714027451303696
+http://stcdxmt.bigperl.in/klxtv/apps/uk/  is predicted: 0.0005740243541610957
+https://tubuh-syarikat.com/plugins/fields/files/  is predicted: 0.0023852560624519903
+http://ongelezen-voda.000webhostapp.com/inloggen.html  is predicted: 7.645293859792623e-05
+http://www.valenzaceramic.com/home/webapps/e52c1/websrc  is predicted: 6.556923363920664e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/68e8bee20c2d73a1dcbf1dcd35ef13f3/index_2.html  is predicted: 1.1202243082486518e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/68e8bee20c2d73a1dcbf1dcd35ef13f3/  is predicted: 1.1202243082486518e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/7361b7745a818c322229b9eea7f5ceab/  is predicted: 1.1202243082486518e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/db8214fc5be1e587af74890698601fe3/  is predicted: 1.1202243082486518e-05
+negative keys test:  [0.9994946041818981, 0.9983226440736334, 0.9976498928131342, 0.9989615220648423, 0.9962164489700351, 0.9988106059841725, 0.9992311225369916, 0.9985873202413287, 0.9990160720863482, 0.9987752775549206]
+positive keys test:  [0.0035968969055161226, 0.00033714027451303696, 0.0005740243541610957, 0.0023852560624519903, 7.645293859792623e-05, 6.556923363920664e-05, 1.1202243082486518e-05, 1.1202243082486518e-05, 1.1202243082486518e-05, 1.1202243082486518e-05]
+
+Process finished with exit code 0
+
+
+
+D:\anaconda\envs\tensorflow\python.exe D:/Design/code/learnedfilter/PLBF-GBDT/run_PLBF.py
+urldata reading...
+positives size:  74192
+negatives size:  225797
+Vectorizing data...
+Corpus length 16313200
+Total chars: 67
+max seen length of URL 2314
+Using maxlen 50
+383.1389307975769
+model acc:  0.9967865488401242
+Done fitting
+Creating bloom filter
+test negatives: [0.99949978 0.99867384 0.99702996 0.99899872 0.99579676 0.99900228
+ 0.99936041 0.99890099 0.99917606 0.99883763]
+https://www.manta.com/c/mmf9lry/h-bud-abell  is predicted: 0.9994997792636224
+https://www.manta.com/c/mmf9vz7/c-j-edwards-funeral-home-inc  is predicted: 0.9986738377225537
+https://www.manta.com/c/mmf9yls/kbay  is predicted: 0.9970299635937042
+https://www.manta.com/c/mmf9zwn/lake-merritt-apartments  is predicted: 0.998998716368047
+https://www.manta.com/c/mmfb8d4/route-specific  is predicted: 0.9957967553941439
+https://www.manta.com/c/mmfb993/perkins-sandblasting  is predicted: 0.9990022768105051
+https://www.manta.com/c/mmfbn9m/chinatown-76  is predicted: 0.9993604075675284
+https://www.manta.com/c/mmfc17t/walt-disney-parks-and-resorts-u-s-inc  is predicted: 0.998900990565054
+https://www.manta.com/c/mmfcd6n/westport-middle-school  is predicted: 0.9991760557767967
+https://www.manta.com/c/mmfcfwl/athenaeum-kansas-city  is predicted: 0.9988376268768852
+http://atualizacaodedados.online  is predicted: 0.005824897138012042
+http://webmasteradmin.ukit.me/  is predicted: 0.0003482135348245041
+http://stcdxmt.bigperl.in/klxtv/apps/uk/  is predicted: 0.0004323372193439923
+https://tubuh-syarikat.com/plugins/fields/files/  is predicted: 0.0017990926137362306
+http://ongelezen-voda.000webhostapp.com/inloggen.html  is predicted: 7.315381721162417e-05
+http://www.valenzaceramic.com/home/webapps/e52c1/websrc  is predicted: 5.704067247735978e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/68e8bee20c2d73a1dcbf1dcd35ef13f3/index_2.html  is predicted: 1.2619303051630837e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/68e8bee20c2d73a1dcbf1dcd35ef13f3/  is predicted: 1.2619303051630837e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/7361b7745a818c322229b9eea7f5ceab/  is predicted: 1.2619303051630837e-05
+http://chronopost-service-enligne.net/56123s/remboursement/remboursement/assurance/db8214fc5be1e587af74890698601fe3/  is predicted: 1.2619303051630837e-05
+negative keys test:  [0.9994997792636224, 0.9986738377225537, 0.9970299635937042, 0.998998716368047, 0.9957967553941439, 0.9990022768105051, 0.9993604075675284, 0.998900990565054, 0.9991760557767967, 0.9988376268768852]
+positive keys test:  [0.005824897138012042, 0.0003482135348245041, 0.0004323372193439923, 0.0017990926137362306, 7.315381721162417e-05, 5.704067247735978e-05, 1.2619303051630837e-05, 1.2619303051630837e-05, 1.2619303051630837e-05, 1.2619303051630837e-05]
+
+Process finished with exit code 0
